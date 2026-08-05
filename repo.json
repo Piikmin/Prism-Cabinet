@@ -1,0 +1,29 @@
+[
+  {
+    "Author": "Piikmin",
+    "Name": "Prism Cabinet",
+    "InternalName": "QuickTestPlugin",
+    "AssemblyVersion": "0.3.0.0",
+    "TestingAssemblyVersion": "0.3.0.0",
+    "RepoUrl": "https://github.com/Piikmin/Prism-Cabinet",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "Punchline": "Test and organize your Penumbra mods without leaving the game.",
+    "Description": "Inspect and temporarily test a mod on your character, then preview and apply an organization for your Penumbra library. Command: /prism.",
+    "Tags": [
+      "penumbra",
+      "glamourer",
+      "mods",
+      "testing",
+      "sorting"
+    ],
+    "IsHide": false,
+    "IsTestingExclusive": true,
+    "TestingChangelog": "First private beta of Prism Cabinet.",
+    "TestingDalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/Piikmin/Prism-Cabinet/releases/download/v0.3.0.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Piikmin/Prism-Cabinet/releases/download/v0.3.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Piikmin/Prism-Cabinet/releases/download/v0.3.0.0/latest.zip",
+    "IconUrl": "https://raw.githubusercontent.com/Piikmin/Prism-Cabinet/master/images/icon.png"
+  }
+]

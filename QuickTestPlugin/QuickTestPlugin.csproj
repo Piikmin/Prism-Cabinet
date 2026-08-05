@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <Version>0.3.0.0</Version>
+    <Description>Prism Cabinet tests and organizes a Penumbra mod library without leaving the game.</Description>
+    <PackageProjectUrl>https://github.com/Piikmin/Prism-Cabinet</PackageProjectUrl>
+    <IconUrl>https://raw.githubusercontent.com/Piikmin/Prism-Cabinet/master/images/icon.png</IconUrl>
+    <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Icône locale utilisée par Dalamud pour les plugins chargés depuis les emplacements de
+         développement. Dalamud la cherche précisément dans images/icon.png. -->
+    <None Include="..\images\icon.png"
+          Link="images\icon.png"
+          CopyToOutputDirectory="PreserveNewest"
+          CopyToPublishDirectory="PreserveNewest" />
+
+    <!-- Wrappers IPC officiels. Ce ne sont que des enveloppes au-dessus de l'IPC Dalamud :
+         les appels traversent en types BCL, il n'y a donc pas de couplage d'assembly avec les
+         plugins installés. La compatibilite reelle est verifiee au runtime via ApiVersion. -->
+    <PackageReference Include="Penumbra.Api" Version="5.15.1" />
+    <PackageReference Include="Glamourer.Api" Version="2.8.2" />
+  </ItemGroup>
+</Project>

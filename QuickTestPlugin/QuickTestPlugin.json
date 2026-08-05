@@ -1,0 +1,16 @@
+{
+  "Author": "Piikmin",
+  "Name": "Prism Cabinet",
+  "Punchline": "Test and organize your Penumbra mods without leaving the game.",
+  "Description": "Inspect and temporarily test a mod on your character, then preview and apply an organization for your Penumbra library. Command: /prism.",
+  "RepoUrl": "https://github.com/Piikmin/Prism-Cabinet",
+  "IconUrl": "https://raw.githubusercontent.com/Piikmin/Prism-Cabinet/master/images/icon.png",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "penumbra",
+    "glamourer",
+    "mods",
+    "testing",
+    "sorting"
+  ]
+}

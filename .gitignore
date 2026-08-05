@@ -1,0 +1,14 @@
+.vs/
+.idea/
+.vscode/
+.claude/
+obj/
+bin/
+TestResults/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.log
+Thumbs.db
+.DS_Store

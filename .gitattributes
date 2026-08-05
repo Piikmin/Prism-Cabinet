@@ -1,0 +1,20 @@
+# Fins de ligne normalisées en LF dans le dépôt comme dans la copie de travail.
+# Sans cela, git convertit en CRLF au checkout sur Windows et chaque poste produit
+# des diffs fantômes selon sa configuration locale.
+* text=auto eol=lf
+
+# Outils Windows qui attendent des CRLF.
+*.sln     text eol=crlf
+*.bat     text eol=crlf
+*.cmd     text eol=crlf
+*.ps1     text eol=crlf
+
+# Binaires : aucune conversion.
+*.png     binary
+*.jpg     binary
+*.ico     binary
+*.dll     binary
+*.pdb     binary
+*.zip     binary
+*.ttmp2   binary
+*.pmp     binary
